@@ -74,8 +74,30 @@ input[type=text] {
 .nav-sec ul li a:hover {
 	background-color: #0092cf;
 }
+.nav-sec ul li:hover ul {
+ 	display:block;
+ }
 .nav-sec ul li.active a {
 	background-color: #0092cf;
+}
+.nav-sec ul li ul {
+	float: none;
+	width: 135px;
+	padding: 0;
+	position: absolute;
+	display: none;
+	background: #0092cf;
+}
+.nav-sec ul ul li {
+	float: none;
+	padding: 0;
+}
+.nav-sec ul ul li a{
+	display: block;
+}
+.nav-sec ul ul li a:hover{ 
+	background:#06a8da; 
+	font-weight:bold;
 }
 .container-sec {
 	width: 960px;
