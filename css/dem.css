@@ -1,0 +1,33 @@
+/*.top {
+	width: 230px;
+	
+	background: url(../images/topback.png) 0 0 no-repeat;
+padding: 30px;
+}
+.middle {
+	
+	background: url(../images/middlebg.png) 0 0 repeat-y;
+}
+.bot {
+	width: 290px;
+	height: 30px;
+	background: url(../images/bottompartbg.png) 0 0 no-repeat;
+}
+*/
+
+.login-container {
+	background: url(../images/topback.png) 0 0 no-repeat;
+	
+}
+.topcap {
+	width: 290px;
+	
+	background: url(../images/middlebg.png) 0 0 repeat-y;
+padding-top: 30px;
+
+}
+.bottomcap {
+	width: 290px;
+	padding-bottom: 30px;
+	background: url(../images/bottompartbg.png) 0 0 no-repeat;
+}

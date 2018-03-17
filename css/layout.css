@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	background: #fdfefe url(../images/strip-verical.png) 0 0 repeat-x;
+
+}
+
+.outer {
+	
+	background:url(../images/theme.png) top center no-repeat;
+		
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.logo {
+	float: left;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	width: 381px;
+	height:148px;
+}
+
+.logo a {
+	
+	width: 275px;
+	height: 148px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.navigation {
+	width: 600px;
+	float: right;
+	position: relative;
+	margin-left: -30px;
+}
+
+.navigation ul {
+	display: flex;
+	width: 100%;
+	padding: 0;
+	margin: 40px 0;
+	justify-content: space-between;
+}
+
+.navigation ul li {
+	list-style-type: none;
+	line-height: 35px;
+	text-align: center;
+	background: #eff2fb;
+	
+	border: 1px solid #abbabe;
+	border-radius: 20px;
+}
+
+.navigation ul li a {
+	padding: 0 15px;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-family: Arial Regular;
+	font-size: 16px;
+}
+.navigation ul li a.active {
+	background: #1bb0c5;
+	border-radius: 20px;
+	color: #fff;
+}
+.navigation ul li a:hover {
+	background: #1bb0c5;
+	border-radius: 20px;
+	color: #fff;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.main-content {width: 980px;}
+.left-content {
+	width: 600px;
+	padding-left: 30px;
+	float: left;
+}
+.text-box {
+	width: 600px;
+	padding-top: 20px;
+}
+.text-box h1 {
+	font-family: Arial;
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 27px;
+	font-weight: normal;
+	color: #000;
+
+}
+.text-box h2 {
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #6e6e6e;
+	font-family: Arial;
+
+}
+.text-box span {
+	font-weight: bold;
+}
+.text-box p{
+	font-size: 14px;
+	color: #6e6e6e;
+	padding-bottom: 17px;
+	margin: 0;
+	font-family: Arial;
+}
+.text-box ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 13px 13px;
+}
+.text-box li {
+	margin: 0;
+	font-size: 14px;
+	color: #6e6e6e;
+	font-family: Arial;
+}
+.text-box .button {
+	margin-top: 7px;
+	background-color: #0a7996;
+	border: none;
+	color: #fff;
+	padding: 8px 12px;
+	font-size: 11px;
+	border-radius: 20px;
+	cursor: none;
+}
+.text-box .button a {
+	text-decoration: none;
+	color: #fff;
+}
+.text-box .button a:hover {
+	text-decoration:underline;
+}
+.right-content {
+	float: right;
+	width: 300px;
+	margin-right: 30px;
+
+}
+.zoeken-box {
+	width: 250px;
+	background-color: #1bb0c5;
+	padding: 20px;
+	border-radius: 20px;
+	position: relative;
+	margin-bottom: -135px;
+}
+.stripbg {
+	background: url(../images/stip.png) no-repeat;
+	width: 315px;
+	height: 65px;
+	color: #fff;
+	padding: 10px 20px;
+	position: relative;
+	margin-left: -20px;
+}
+.zoeken-box label {
+	color: #fff;
+}
+.zoeken-box select {
+	width: 100%;
+	padding: 3px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.zoeken-box input[type=number]{
+	width: 30%;}
+.zoeken-box input[type=button] {
+	margin-top: 20px;
+	border-radius: 20px;
+	border:none;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #106a89;
+}
+.zoeken-box span.text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	padding: 35px 0 17px 0;
+}
+p.textarea {
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+}
+
+.bottom-content {
+	background-color: #33383b;
+	
+	padding: 20px 0;
+	
+
+}
+.profile-area {
+	width: 940px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 25px 20px;
+}
+.profile-box {
+	width: 600px;
+	float: left;
+}
+.profile-box h2 {
+	float: left;
+	width: 270px;
+	margin: 0;
+	color: #d1136a;
+	font-size: 30px;
+	font-weight: normal;
+	padding:0 0 30px 30px;
+	background: url(../images/malesign.png) 0 0 no-repeat;
+}
+.profile-box h2.maletitle {
+	color: #1E98B3;
+	background: url(../images/icon1.png) 0 0 no-repeat;
+}
+.profile-box ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.profile-box ul li {
+	width: 600px;
+	float: left;
+	margin-bottom: 30px;
+	/*background: url(../images/profile-bg.jpg) left bottom no-repeat; */
+}
+.female {
+	float: left;
+	width: 300px;
+}
+.female .left {
+	float: left;
+}
+.female .right {
+	float: right;
+	width: 150px;
+}
+.right h3 {
+	color: #e5006a;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.profile-box .female .right ul {
+	padding: 0;
+}
+.female .right ul li {
+	margin: 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+.male {
+	float: right;
+	width: 300px;
+}
+.male .left {
+	float: left;
+}
+.male .right {
+	float: right;
+	width: 150px;
+}
+.male .right h3 {
+	color: #36b0c6;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.male .right ul li {
+	margin: 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+.login-box {
+	width: 305px;
+	float: left;
+	margin-left: 30px;
+}
+.login-container {
+	
+	background: url(../images/middlebg.png) repeat-y;
+	padding: 155px 20px 20px;
+}
+.topcap {
+	width: 290px;
+	background: url(../images/topback.png) left top no-repeat;
+	padding-top: 30px;
+}
+
+.bottomcap {
+	
+	background: url(../images/bottompartbg.png) left bottom no-repeat;
+	padding-bottom: 30px;
+}
+.login-container h2 {
+	color: #525252;
+}
+input[type=text]{
+	width: 100%;
+	padding: 3px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+}
+input[type=submit] {
+	background-color: #0a7996;
+	border: none;
+	color: #fff;
+	padding: 8px 10px;
+	font-size: 11px;
+	border-radius: 20px;
+}
+
+.login-container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.login-container ul li {
+	margin: 10px 0;
+	text-align: right;
+}
+
+.login-container ul li a {
+	color: black;
+}
+
+.copyright {
+	
+	width: 230px;
+	background: url(../images/lefttop.png) 0 0 no-repeat;
+	padding: 25px 30px;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+.copyright p { 
+	font-family:Arial;
+	font-size:12px;
+	color:#6e6e6e;
+	text-decoration:underline;
+}
+.copyright span {
+	font-size:9px;
+	font-family:Arial;
+	color:#6e6e6e;
+}
+
+.copyright .button {
+    margin-top: 30px;
+    margin-right: 15px;
+    background-color: #0a7996;
+    border: none;
+    color: #fff;
+    padding: 13px 12px;
+    font-size: 11px;
+    border-radius: 20px;
+}
